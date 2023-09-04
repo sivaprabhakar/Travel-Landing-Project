@@ -1,0 +1,71 @@
+.sec1 h4,
+.sec1 h5 {
+    color: var(--TEXT-CLR, #5E6282);
+    font-family: Poppins;
+    font-size: 24px; /* For h4 */
+    font-style: normal;
+    font-weight: 500;
+    line-height: 124.5%;
+    position: relative;
+}
+
+.sec1 h5 {
+    font-size: 16px; /* Adjusted font size for h5 */
+}
+
+.images-container {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+}
+
+.sec1 .img1,
+.sec1 .img2,
+.sec1 .img3 {
+    background-repeat: no-repeat;
+    width: 440.658px; /* Adjusted image width */
+    height: 437.866px; /* Adjusted image height */
+    flex-shrink: 0;
+    position: relative;
+}
+
+.sec1 .img1 {
+    background-image: url(asset/rome.png);
+    left: 22px;
+}
+
+.sec1 .img2 {
+    background-image: url(asset/london.png);
+}
+
+.sec1 .img3 {
+    background-image: url(asset/europe.png);
+    right: 44px;
+}
+
+.bac {
+    width: 419.988px;
+    height: 172.916px;
+    flex-shrink: 0;
+    border-radius: 0px 0px 31.923px 31.923px;
+    background: var(--white, #ffffff);
+    position: relative;
+    z-index: -100; /* Adjusted z-index */
+}
+
+.back {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    top: 100px;
+    z-index: -100; /* Adjusted z-index */
+}
+
+.sec1 .info {
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    text-align: center;
+}
